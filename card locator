@@ -1,0 +1,121 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNAzS2Cv2UcdZszE1NwJQMh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Iyanufemi/Data-Structures-Algorithms/blob/main/card%20locator\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "y0f8q9v0fzv2",
+        "outputId": "f2833c69-8dcd-4f1d-93bb-9603e2c39771"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'Data-Strustures-Algorithms'...\n",
+            "remote: Enumerating objects: 9, done.\u001b[K\n",
+            "remote: Counting objects: 100% (9/9), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (5/5), done.\u001b[K\n",
+            "remote: Total 9 (delta 1), reused 0 (delta 0), pack-reused 0\u001b[K\n",
+            "Unpacking objects: 100% (9/9), done.\n"
+          ]
+        }
+      ],
+      "source": [
+        "!git clone https://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@github.com/Iyanufemi/Data-Strustures-Algorithms\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def card_locator(card, query):\n",
+        "  # Create a variable position with the value 0\n",
+        "  position = 0\n",
+        "\n",
+        "  # now set up a loop to repeat the process\n",
+        "  if card[position] == query:\n",
+        "    #return answer found and exit\n",
+        "    return position\n",
+        "  # increment the position\n",
+        "  position+=1\n",
+        "\n",
+        "  # check if we have reached the end of the answer\n",
+        "  if position == len(cards):\n",
+        "\n",
+        "    # return number not found as -1\n",
+        "    return -1"
+      ],
+      "metadata": {
+        "id": "seVzENUfhL7a"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "git add .\n",
+        "git commit -m 'card locator algo'\n",
+        "git push"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 131
+        },
+        "id": "ua76FdGUlRww",
+        "outputId": "07a8d228-b3c6-4a01-f28d-ea472b12ad94"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-08974e846474>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    git add .\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "bkxSldWKlcWe"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
